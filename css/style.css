@@ -1,7 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 body {
-    overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
-    color: #505962;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: #505962;
+
+}
+
+/* navigasi */
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  /* rem ukuran yang saya baru tau */
+  font-size: .8rem;
+  letter-spacing: 0.1px;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.navbar img {
+  height: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-left: 20px;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+/* Landing page */
+.home-inner {
+  background-image: url(/img/cpu.png);
 }
