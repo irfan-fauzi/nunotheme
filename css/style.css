@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 
 body {
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
   color: #505962;
-
 }
 
 /* navigasi */
@@ -12,7 +11,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   /* rem ukuran yang saya baru tau */
-  font-size: .8rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1px;
   background: rgba(0, 0, 0, 0.6) !important;
 }
@@ -24,7 +23,6 @@ body {
 .navbar-dark .navbar-nav .nav-link {
   color: white;
   padding-left: 20px;
-
 }
 
 .navbar-dark .navbar-nav .nav-link.active,
@@ -35,4 +33,28 @@ body {
 /* Landing page */
 .home-inner {
   background-image: url(/img/cpu.png);
+}
+
+.caption {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-shadow: 0.1rem 0.1rem 0.8rem black;
+  padding-bottom: 1rem;
+}
+.caption h3 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
 }
